@@ -4,6 +4,6 @@ int main()
 {
     say("hello world\n");
     int a = 1, b = 2;
-    swap(a, b);
+    swap(&a, &b);
     printf("a=%d, b=%d", a, b);
 }
